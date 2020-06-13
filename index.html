@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-nav">
+      <nav>
+        <ul class="header-list">
+          <li class="header-item"><a href="#about">ABOUT</a></li>
+          <li class="header-item"><a href="#works">WORKS</a></li>
+          <li class="header-item"><a href="#skills">SKILLS</a></li>
+          <li class="header-item"><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+      <h1 class="site-title">Masayoshi Abe's portfolio</h1>
+      <!-- <p class="site-description">Check out some of my works.</p> -->
+      <div class="buttons">
+          <a href="#about" class="button">LEARN MORE</a>
+          <a href="#contact" class="button button-showy">SEND MESSAGE</a>
+      </div>
+  </header>
+
+  <section class="about" id="about">
+      <h2 class="heading">ABOUT ME</h2>
+      <p class="about-text">
+        はじめまして。阿部正義(あべ まさよし)と申します。<br>
+        １９９４年生まれの２５歳です。今までは個人、法人営業を経験したのち<br>
+        一念発起し独学で学び始め、学習歴は３ヶ月ほど。
+        主に動画教材や参考書で学び、毎日手と頭動かして日々奮闘中。<br>
+        業界、職種共に未経験ですが、向上心持って取り組みます。
+      </p>
+  </section>
+
+  <section class="works" id="works">
+    <h2 class="heading">WORKS</h2>
+    <div class="works-wrapper">
+      <div class="works-box">
+        <a href="https://logo-practice.netlify.app/"><img src="images/logo.png" alt=""></a>
+      </div>
+      <div class="works-box">
+        <a href="https://practice-coding.netlify.app"><img src="images/practice-coding.png" alt=""></a>
+      </div>
+      <div class="works-box">
+        <a href="https://stayworld.netlify.app/"><img src="images/stayworld.png" alt=""></a>
+      </div>
+    </div>
+    <p class="works-text">※全てHTML、CSS、jQueryを使ったコーディングのみとなっております。</p>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="heading">MY SKILLS</h2>
+    <div class="skills-wrapper">
+      <div class="skill-box">
+        <i class="skill-icon fab fa-html5"></i>
+        <div class="skill-title"> HTML</div>
+        <p>
+          経験年数：３ヶ月
+        </p>
+        <p class="skill-text">
+          基礎的な部分は理解しております。
+        </p>
+      </div>
+      <div class="skill-box">
+        <i class="skill-icon fab fa-css3-alt"></i>
+        <div class="skill-title">CSS</div>
+        <p>
+          経験年数：３ヶ月
+        </p>
+        <p class="skill-text">
+          簡単な装飾、アニメーションを作ることができます。<br>
+          レスポンシブ対応も可能です。
+        </p>
+      </div>
+      <div class="skill-box">
+        <i class="skill-icon fab fa-js-square"></i>
+        <div class="skill-title sp-title">JavaScript/jQuery</div>
+        <p>
+          経験年数：２ヶ月
+        </p>
+        <p class="skill-text">
+          主にjQueryを用いて、簡単な動きを付けて<br>
+          動的なサイトを作れます。
+        </p>
+      </div>
+      <div class="skill-box">
+        <i class="skill-icon fab fa-sass"></i>
+        <div class="skill-title">SASS/SCSS</div>
+        <p>
+          経験年数：１ヶ月未満
+        </p>
+        <p class="skill-text">
+          SCSSでの記載の仕方などは理解しております。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="heading">CONTACT</h2>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="NAME">
+      <textarea name="message" placeholder="MESSAGE"></textarea>
+      <input type="submit" value="SEND">
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-nav">
+      <nav>
+        <ul class="footer-list">
+          <li class="footer-item"><a href="#about">ABOUT</a></li>
+          <li class="footer-item"><a href="#works">WORKS</a></li>
+          <li class="footer-item"><a href="#skills">SKILLS</a></li>
+          <li class="footer-item"><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+    <small>© Masayoshi Abe</small>
+  </footer>
+
+  <div id="overlay">
+    <div id="loading"></div>
+  </div>
+  
+  <script src="lib/jquery-3.5.0.min.js"></script>
+  <script src="lib/placeholders.min.js"></script>
+  <script src="lib/script.js"></script>
+</body>
+</html>
